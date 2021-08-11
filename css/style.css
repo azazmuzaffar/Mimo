@@ -569,12 +569,10 @@ footer .--right-- ul li a.social-icons {
 	font-family: "Red Hat Display", sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
-	line-height: 28px;
+	font-size: 22px;
+	line-height: 34px;
 	text-align: center;
-	letter-spacing: 0.36px;
-	color: #412d2d;
-	margin: 0;
+	color: #412D2D;
 	margin-bottom: 66px;
 }
 .--pop--up-- .pop--up--message a {
