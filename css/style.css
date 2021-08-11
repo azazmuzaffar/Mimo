@@ -4,6 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap");
 
+
 /*>>>>>>>> Common <<<<<<<<<*/
 
 body {
@@ -429,7 +430,7 @@ body {
 .join--us p {
 	font-family: "Red Hat Display", sans-serif;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 500;
 	font-size: 18px;
 	line-height: 28px;
 	text-align: center;
@@ -446,7 +447,7 @@ input[type="email"] {
 	font-family: "Red Hat Display", sans-serif;
 	text-align: center;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 450;
 	font-size: 18px;
 	line-height: 28px;
 	color: #412d2d;
@@ -473,6 +474,10 @@ input[type="submit"] {
 	letter-spacing: 1.3px;
 	text-transform: uppercase;
 	cursor: pointer;
+}
+.join--us input[type="submit"]:hover{
+	transition: .2s;
+	background: #5D7A47;
 }
 
 /*>>>>>>>> Footer <<<<<<<<<*/
@@ -507,15 +512,27 @@ footer ul li {
 }
 footer ul li a {
 	color: #412d2d;
+	transition: .2s;
 }
 footer ul li a:hover {
 	color: #412d2d;
 }
 footer .--right-- ul li a {
 	padding-left: 30px;
+	text-decoration: none;
+	transition: .2s;
+}
+footer .--right-- ul li a:hover {
+	color: #5D7A47;
+	transition: .2s;
 }
 footer .--left-- ul li a {
 	text-decoration: underline;
+	transition: .2s;
+}
+footer .--left-- ul li a:hover {
+	color: #5D7A47;
+	transition: .2s;
 }
 footer .--right-- ul li a.social-icon {
 	padding-left: 16px;
