@@ -56,7 +56,12 @@ body {
   letter-spacing: 0.36px;
   color: #faf2e0;
   text-decoration: none;
+  transition: .2s;
 }
+.navbar li a:hover{
+	color: #5D7A47;
+	transition: .2s;
+  }
 .navbar li a.request--access {
   font-size: 13px;
   line-height: 40px;
@@ -67,7 +72,13 @@ body {
   border-radius: 25px;
   letter-spacing: 1.3px;
   text-transform: uppercase;
+  transition: .3s;
 }
+.navbar li a.request--access:hover {
+	color: #faf2e0;
+	background: #5D7A47;
+	transition: .3s;
+  }
 @media screen and (max-width: 500px) {
   .navbar li a.phone--number {
     display: none;
@@ -91,10 +102,13 @@ body {
   background-position: top center;
 }
 .hero--banner .banner--content {
-  padding-top: 186px;
+  padding-top: 175px;
 }
 .hero--banner .banner--content img {
+	margin: 0;
+	padding: 0;
   margin-bottom: 59px;
+
 }
 .hero--banner .banner--content h1 {
   font-family: "Red Hat Display", sans-serif;
@@ -126,6 +140,7 @@ body {
   border-radius: 25px;
   letter-spacing: 1.3px;
   text-transform: uppercase;
+  margin: 0;
   text-decoration: none;
 }
 
@@ -169,7 +184,6 @@ body {
 }
 .how-it-works p {
   font-family: "Red Hat Display", sans-serif;
-  font-family: Red Hat Display;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -200,11 +214,15 @@ body {
   background: #412d2d;
   transition: 0.3s;
 }
+.how-it-works .--boxes-- .--box--.active {
+	background: #412d2d;
+}
+
 .how-it-works .--boxes-- .--box-- svg {
   margin-bottom: 15px;
 }
 .how-it-works .--boxes-- .--box--:hover svg path {
-  fill: #faf2e0;
+  /* fill: #faf2e0; */
 }
 .how-it-works .--boxes-- .--box-- p {
   font-family: "Red Hat Display", sans-serif;
@@ -219,6 +237,9 @@ body {
 }
 .how-it-works .--boxes-- .--box--:hover p {
   color: #faf2e0;
+}
+.how-it-works .--boxes-- .--box--.active p {
+	color: #faf2e0;
 }
 .how-it-works .col-lg-4 {
   width: 100%;
@@ -295,6 +316,7 @@ body {
   margin: 0;
   padding: 0;
   margin-bottom: 10px;
+  letter-spacing: unset;
 }
 .coming--together .col-lg-6 .the-box .--para-p-- {
   font-family: "Red Hat Display", sans-serif;
@@ -305,7 +327,8 @@ body {
   text-align: center;
   letter-spacing: 0.36px;
   color: #412d2d;
-  text-transform: capitalize;
+  text-transform: initial;
+  
 }
 
 /*>>>>>>>> Our Mission <<<<<<<<<*/
