@@ -1,0 +1,91 @@
+ /*>>>>>>>> Fonts / Poppins / Aeonik / <<<<<<<<<*/
+ 
+ /*>>>>>>>> Poppins <<<<<<<<<*/
+
+ @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap');
+ 
+ /*>>>>>>>> Aeonik <<<<<<<<<*/
+
+ @font-face {
+    font-family: 'Aeonik';
+    src: url('../fonts/Aeonik-Medium.woff2') format('woff2'), url('../fonts/Aeonik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*>>>>>>>> Common <<<<<<<<<*/
+
+body {
+	padding: 0;
+	margin: 0;
+}
+.des {
+	display: block;
+	width: 100%;
+}
+.mob {
+	display: none;
+	width: 100%;
+}
+@media screen and (max-width:500px) {
+	.des 
+	{
+		display: none;
+	}
+	.mob 
+	{
+		display: block;
+	}
+}
+
+/*>>>>>>>> Navbar <<<<<<<<<*/
+
+.container{
+	width: 1120px;
+	padding: 0;
+}
+.navbar {
+	height: 60px;
+	width: 100%;
+	background: #412D2D;
+}
+.logo, .nav {
+	display: inline-block;
+	margin: 0;
+}
+.nav {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav li {
+	display: inline-block;
+	margin-left: 40px;
+}
+.navbar li a {
+	font-family: 'Red Hat Display', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.36px;
+	color: #FAF2E0;
+	text-decoration: none;
+}
+.navbar li a.request--access {
+	font-size: 13px;
+	line-height: 37px;
+	color: #412D2D;
+	width: 188px;
+	padding: 12px 29px;
+	background: #FAF2E0;
+	border-radius: 25px;
+	letter-spacing: 1.3px;
+	text-transform: uppercase;
+}
+@media screen and (max-width:500px) {
+	.navbar li a.phone--number {
+		display: none;
+	}
+}
