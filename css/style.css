@@ -152,7 +152,7 @@ body {
 	width: 197px;
 	margin: 0;
 	padding: 0;
-	padding: 15px 33px;
+	padding: 13px 33px;
 	width: 197px;
 	height: 43px;
 	line-height: 43px;
@@ -229,7 +229,7 @@ body {
 }
 .how-it-works .--boxes-- .--box--:hover {
 	background: #412d2d;
-	
+	transition: .2s;
 }
 .how-it-works .--boxes-- .--box--.--on-- {
 	background: #412d2d;
@@ -239,6 +239,7 @@ body {
 }
 .how-it-works .--boxes-- .--box--:hover svg path{
 	fill: #faf2e0;
+	transition: .2s;
 } 
 .how-it-works .--boxes-- .--box--.--on-- svg path{
 	fill: #faf2e0;
@@ -616,7 +617,18 @@ footer .--right-- ul li a.social-icon {
 }
 footer .--right-- ul li a.social-icons {
 	padding-left: 30px;
+}
+footer .--right-- ul li a .fab{
+	font-size: 20px;
+}
+footer .--right-- ul li a .fab.fa-instagram{
 	font-size: 21px;
+}
+footer .--right-- ul li a .fab.fa-linkedin{
+	font-size: 22px;
+}
+footer .--right-- ul li a .fab.fa-pinterest{
+	font-size: 22px;
 }
 
 /*>>>>>>>> Request Access [ POP UP ] <<<<<<<<<*/
@@ -627,7 +639,7 @@ footer .--right-- ul li a.social-icons {
 	width: 100%;
 	height: 100vh;
 	position: fixed;
-	background: rgba(0, 0, 0, 0.33);
+	background: rgba(0, 0, 0, 0.5);
 	z-index: 99;
 	display: none;
 }
@@ -682,7 +694,9 @@ footer .--right-- ul li a.social-icons {
 }
 .--pop--up-- .pop--up--message input[type="submit"] {
 	margin-bottom: 77px;
+	transition: .2s;
 }
 .--pop--up-- .pop--up--message input[type="submit"]:hover {
 	background: #5D7A47;
+	transition: .2s;
 }
