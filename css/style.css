@@ -502,6 +502,7 @@ body {
 	text-align: center;
 	color: #412d2d;
 	margin: 0;
+	padding: 0;
 	margin-bottom: 20px;
 }
 .join--us p {
@@ -514,9 +515,11 @@ body {
 	letter-spacing: 0.36px;
 	color: #412d2d;
 	margin: 0;
-	margin-bottom: 68px;
+	margin-bottom: 66px;
 }
 input[type="email"] {
+	margin: 0;
+	padding: 0;
 	width: 370px;
 	border: none;
 	outline: none;
@@ -528,12 +531,14 @@ input[type="email"] {
 	font-size: 18px;
 	line-height: 28px;
 	color: #412d2d;
-	margin-bottom: 55px;
+	margin-bottom: 40px;
 }
 input[type="email"]::placeholder {
 	color: #412d2d;
 }
 input[type="submit"] {
+	margin: 0;
+	padding: 0;
 	border: none;
 	outline: none;
 	background: #412d2d;
@@ -562,7 +567,7 @@ footer {
 	margin: 0;
 	padding: 0;
 	padding-top: 40px;
-	padding-bottom: 70px;
+	padding-bottom: 90px;
 }
 footer .--left-- {
 	display: inline;
@@ -677,6 +682,7 @@ footer .--right-- ul li a .fab.fa-pinterest{
 	line-height: 34px;
 	text-align: center;
 	color: #412D2D;
+	margin: 0;
 	margin-bottom: 66px;
 }
 .--pop--up-- .pop--up--message a {
