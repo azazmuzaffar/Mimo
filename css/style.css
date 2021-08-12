@@ -5,6 +5,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap");
 
 
+@font-face {
+    font-family: 'Red Hat Text Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Red Hat Text Regular'), url('../fonts/red-hat-display/RedHatText-Regular.woff') format('woff');
+}
+
 /*>>>>>>>> Common <<<<<<<<<*/
 
 body {
@@ -72,12 +79,12 @@ body {
 	border-radius: 25px;
 	letter-spacing: 1.3px;
 	text-transform: uppercase;
-	transition: .3s;
+	transition: .1s;
 }
 .navbar li a.request--access:hover {
 	color: #faf2e0;
 	background: #5D7A47;
-	transition: .3s;
+	transition: .1s;
 }
 @media screen and (max-width: 500px) {
 	.navbar li a.phone--number {
@@ -102,6 +109,8 @@ body {
 	background-position: top center;
 }
 .hero--banner .banner--content {
+	margin: 0;
+	padding: 0;
 	padding-top: 175px;
 }
 .hero--banner .banner--content img {
@@ -116,6 +125,8 @@ body {
 	font-size: 68px;
 	line-height: 90px;
 	color: #fefefe;
+	margin: 0;
+	padding: 0;
 }
 .hero--banner .banner--content p {
 	font-family: "Red Hat Display", sans-serif;
@@ -130,16 +141,23 @@ body {
 }
 .hero--banner .banner--content a {
 	font-family: "Red Hat Display", sans-serif;
+	font-style: normal;
+	font-weight: 500;
 	font-size: 13px;
-	line-height: 47px;
-	color: #412d2d;
-	width: 197px;
-	padding: 15px 33px;
-	background: #faf2e0;
-	border-radius: 25px;
+	line-height: unset;
+	text-align: center;
 	letter-spacing: 1.3px;
 	text-transform: uppercase;
+	color: #412d2d;
+	width: 197px;
 	margin: 0;
+	padding: 0;
+	padding: 15px 33px;
+	width: 197px;
+	height: 43px;
+	line-height: 43px;
+	background: #FEFEFE;
+	border-radius: 25px;
 	text-decoration: none;
 }
 
@@ -206,22 +224,81 @@ body {
 	text-align: center;
 	padding-top: 24px;
 	cursor: pointer;
-	transition: 0.3s;
+	
 	margin-right: 20px;
 }
 .how-it-works .--boxes-- .--box--:hover {
 	background: #412d2d;
-	transition: 0.3s;
+	
 }
-.how-it-works .--boxes-- .--box--.active {
+.how-it-works .--boxes-- .--box--.--on-- {
 	background: #412d2d;
 }
 .how-it-works .--boxes-- .--box-- svg {
 	margin-bottom: 15px;
 }
-/* .how-it-works .--boxes-- .--box--:hover svg path {
+.how-it-works .--boxes-- .--box--:hover svg path{
 	fill: #faf2e0;
-} */
+} 
+.how-it-works .--boxes-- .--box--.--on-- svg path{
+	fill: #faf2e0;
+} 
+
+/* Communicate with love ones */
+.how-it-works .--boxes-- .--box--:hover svg path.half--circle,
+.how-it-works .--boxes-- .--box--.--on-- svg path.half--circle{
+	fill: #5D7A47;
+	opacity: 1;
+} 
+.how-it-works .--boxes-- .--box--:hover svg path.half--circle--left,
+.how-it-works .--boxes-- .--box--.--on-- svg path.half--circle--left{
+	fill: #5D7A47;
+} 
+
+/* Track daily responsibilities */
+.how-it-works .--boxes-- .--box--:hover svg path.make-it-green,
+.how-it-works .--boxes-- .--box--.--on-- svg path.make-it-green{
+	fill: #5D7A47;
+	opacity: 1;
+} 
+
+
+/* Manage your family accounts */
+.how-it-works .--boxes-- .--box--:hover svg ellipse.--right--bottom--,
+.how-it-works .--boxes-- .--box--.--on-- svg ellipse.--right--bottom--{
+	fill: #FAF2E0;
+	opacity: 1;
+}
+.how-it-works .--boxes-- .--box--:hover svg ellipse.--theleft--circle--,
+.how-it-works .--boxes-- .--box--.--on-- svg ellipse.--theleft--circle--{
+	opacity: 1;
+}
+
+/* Get a card for your kids */
+.how-it-works .--boxes-- .--box--:hover svg path.inner-path,
+.how-it-works .--boxes-- .--box--.--on-- svg path.inner-path{
+	fill: #5D7A47;
+	opacity: 1;
+}
+
+/* Keep your family safe */
+.how-it-works .--boxes-- .--box--:hover svg path.--thelleftSide--,
+.how-it-works .--boxes-- .--box--.--on-- svg path.--thelleftSide--{
+	fill: #5D7A47;
+	opacity: 1;
+}
+
+/* Take care of your health */
+.how-it-works .--boxes-- .--box--:hover svg path.--circle--,
+.how-it-works .--boxes-- .--box--:hover svg path.--circle--{
+	fill: #5D7A47;
+}
+
+/* Enjoy our family services */
+.how-it-works .--boxes-- .--box--:hover svg path.ring--borders,
+.how-it-works .--boxes-- .--box--.--on-- svg path.ring--borders{
+	fill: #5D7A47;
+}
 .how-it-works .--boxes-- .--box-- p {
 	font-family: "Red Hat Display", sans-serif;
 	font-style: normal;
@@ -231,12 +308,12 @@ body {
 	text-align: center;
 	letter-spacing: 0.28px;
 	color: #412d2d;
-	transition: 0.1s;
+	
 }
 .how-it-works .--boxes-- .--box--:hover p {
 	color: #faf2e0;
 }
-.how-it-works .--boxes-- .--box--.active p {
+.how-it-works .--boxes-- .--box--.--on-- p {
 	color: #faf2e0;
 }
 .how-it-works .col-lg-4 {
@@ -430,7 +507,7 @@ body {
 .join--us p {
 	font-family: "Red Hat Display", sans-serif;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: normal;
 	font-size: 18px;
 	line-height: 28px;
 	text-align: center;
@@ -447,7 +524,7 @@ input[type="email"] {
 	font-family: "Red Hat Display", sans-serif;
 	text-align: center;
 	font-style: normal;
-	font-weight: 450;
+	font-weight: normal;
 	font-size: 18px;
 	line-height: 28px;
 	color: #412d2d;
@@ -476,7 +553,6 @@ input[type="submit"] {
 	cursor: pointer;
 }
 .join--us input[type="submit"]:hover{
-	transition: .2s;
 	background: #5D7A47;
 }
 
@@ -512,7 +588,7 @@ footer ul li {
 }
 footer ul li a {
 	color: #412d2d;
-	transition: .2s;
+	
 }
 footer ul li a:hover {
 	color: #412d2d;
@@ -520,27 +596,27 @@ footer ul li a:hover {
 footer .--right-- ul li a {
 	padding-left: 30px;
 	text-decoration: none;
-	transition: .2s;
+	
 }
 footer .--right-- ul li a:hover {
 	color: #5D7A47;
-	transition: .2s;
+	
 }
 footer .--left-- ul li a {
 	text-decoration: underline;
-	transition: .2s;
+	
 }
 footer .--left-- ul li a:hover {
 	color: #5D7A47;
-	transition: .2s;
+	
 }
 footer .--right-- ul li a.social-icon {
 	padding-left: 16px;
-	font-size: 18px;
+	font-size: 21px;
 }
 footer .--right-- ul li a.social-icons {
 	padding-left: 30px;
-	font-size: 18px;
+	font-size: 21px;
 }
 
 /*>>>>>>>> Request Access [ POP UP ] <<<<<<<<<*/
@@ -551,7 +627,7 @@ footer .--right-- ul li a.social-icons {
 	width: 100%;
 	height: 100vh;
 	position: fixed;
-	background: rgba(0, 0, 0, 0.23);
+	background: rgba(0, 0, 0, 0.33);
 	z-index: 99;
 	display: none;
 }
@@ -606,9 +682,7 @@ footer .--right-- ul li a.social-icons {
 }
 .--pop--up-- .pop--up--message input[type="submit"] {
 	margin-bottom: 77px;
-	transition: .3s;
 }
 .--pop--up-- .pop--up--message input[type="submit"]:hover {
-	transition: .3s;
 	background: #5D7A47;
 }
