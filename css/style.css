@@ -63,11 +63,11 @@ body {
 	letter-spacing: 0.36px;
 	color: #faf2e0;
 	text-decoration: none;
-	transition: .2s;
+	
 }
 .navbar li a:hover {
 	color: #5D7A47;
-	transition: .2s;
+	
 }
 .navbar li a.request--access {
 	font-size: 13px;
@@ -79,12 +79,12 @@ body {
 	border-radius: 25px;
 	letter-spacing: 1.3px;
 	text-transform: uppercase;
-	transition: .1s;
+
 }
 .navbar li a.request--access:hover {
 	color: #faf2e0;
 	background: #5D7A47;
-	transition: .1s;
+
 }
 @media screen and (max-width: 500px) {
 	.navbar li a.phone--number {
@@ -228,7 +228,7 @@ body {
 }
 .how-it-works .--boxes-- .--box--:hover {
 	background: #412d2d;
-	transition: .2s;
+	
 }
 .how-it-works .--boxes-- .--box--.--on-- {
 	background: #412d2d;
@@ -238,7 +238,7 @@ body {
 }
 .how-it-works .--boxes-- .--box--:hover svg path{
 	fill: #faf2e0;
-	transition: .2s;
+	
 } 
 .how-it-works .--boxes-- .--box--.--on-- svg path{
 	fill: #faf2e0;
@@ -567,7 +567,7 @@ footer {
 	margin: 0;
 	padding: 0;
 	padding-top: 40px;
-	padding-bottom: 90px;
+	padding-bottom: 100px;
 }
 footer .--left-- {
 	display: inline;
@@ -616,20 +616,20 @@ footer .--left-- ul li a:hover {
 	
 }
 footer .--right-- ul li a.social-icon {
-	padding-left: 16px;
+	padding-left: 12px;
 	font-size: 21px;
 }
 footer .--right-- ul li a.social-icons {
 	padding-left: 30px;
 }
 footer .--right-- ul li a .fab{
-	font-size: 20px;
+	font-size: 22px;
 }
 footer .--right-- ul li a .fab.fa-instagram{
-	font-size: 21px;
+	font-size: 23px;
 }
 footer .--right-- ul li a .fab.fa-linkedin{
-	font-size: 22px;
+	font-size: 23px;
 }
 footer .--right-- ul li a .fab.fa-pinterest{
 	font-size: 22px;
@@ -699,9 +699,9 @@ footer .--right-- ul li a .fab.fa-pinterest{
 }
 .--pop--up-- .pop--up--message input[type="submit"] {
 	margin-bottom: 77px;
-	transition: .2s;
+	
 }
 .--pop--up-- .pop--up--message input[type="submit"]:hover {
 	background: #5D7A47;
-	transition: .2s;
+	
 }
