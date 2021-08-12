@@ -6,3 +6,10 @@ $(".open").on("click", function() {
   $(".hide").on("click", function() {
     $(".request--access--pop--up").removeClass("active");
   });
+
+  $(document).ready(function() {
+$(".--box--").click(function () {
+    $(".--box--").removeClass("--on--");
+    $(this).addClass("--on--");   
+});
+});
